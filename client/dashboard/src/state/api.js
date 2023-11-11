@@ -39,7 +39,7 @@ export const api = createApi({
         }),
         getUserPerformance: build.query({
             query: (id) => `management/performance/${id}`,
-            providesTags: ["performance"]
+            providesTags: ["Performance"]
         }),
         getDashboard: build.query({
             query: () => "general/dashboard",

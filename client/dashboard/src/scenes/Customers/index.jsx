@@ -8,6 +8,7 @@ import { DataGrid } from "@mui/x-data-grid"
 const Customers = () => {
   const theme = useTheme()
   const { data, isLoding } = useGetCustomersQuery()
+  console.log(data)
   const columns = [
     {
       field: "_id",

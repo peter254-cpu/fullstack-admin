@@ -29,7 +29,7 @@ const Overviewchart = ({ isDashboard = false, view }) => {
           const curUnits = acc.units + totalUnits;
 
           totalSalesLine.data = [
-            ...totalSalesLine.data,
+            ...totalUnitsLine.data,
             { x: month, y: curSales}
           ]
           totalUnitsLine.data = [

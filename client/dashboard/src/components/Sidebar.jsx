@@ -65,7 +65,7 @@ const navItems = [
 
 ]
 
-const Sidebar = ({ user, drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobile}) => {
+const Sidebar = ({ user, drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobile }) => {
   const { pathname } = useLocation();
   const [active, setActive] = useState("");
   const navigate = useNavigate();
@@ -129,7 +129,7 @@ const Sidebar = ({ user, drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobi
                       backgroundColor: active === lcText 
                       ? theme.palette.secondary[300]
                       : "transparent",
-                      color: 
+                      color:
                         active === lcText 
                         ? theme.palette.primary[600]
                         : theme.palette.secondary[100]

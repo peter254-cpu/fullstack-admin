@@ -7,7 +7,7 @@ import { ResponsiveLine } from "@nivo/line";
 const Monthly = () => {
     const { data }= useGetSalesQuery()
     const theme = useTheme()
-    console.log("daily data", data)
+   
 
     const [formattedData] = useMemo(() => {
         if(!data) return [];

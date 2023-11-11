@@ -89,7 +89,7 @@ const Dashboard = () => {
           title="Sales Today"
           value={""}
           increase="+14%"
-          description="Since Last Month"
+          description="Since Yesterday"
           icon={
             <Email sx={{ color: theme.palette.secondary[300], fontSize: "26px"}} />
           }
@@ -117,7 +117,7 @@ const Dashboard = () => {
           title="Yearly Sales"
           value={data && data.yearlySalesTotal}
           increase="+43%"
-          description="Since Last Month"
+          description="Past 12 months"
           icon={
             <Traffic sx={{ color: theme.palette.secondary[300], fontSize: "26px"}} />
           }

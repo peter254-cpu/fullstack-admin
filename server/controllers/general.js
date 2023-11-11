@@ -1,4 +1,3 @@
-import { connect } from 'mongoose'
 import User from '../models/User.js'
 import OverallStat from "../models/OvarallStat.js"
 import Transaction from "../models/Transactions.js"
